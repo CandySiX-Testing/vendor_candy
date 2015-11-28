@@ -227,6 +227,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/candy/overlay/common
 
+# Viper4Android
+PRODUCT_COPY_FILES += \
+     vendor/candy/prebuilt/common/app/ViPER4Android/ViPER4Android_FX_A4.x.apk:system/app/ViPER4Android/ViPER4Android_FX_A4.x.apk \
+     vendor/candy/prebuilt/common/app/ViPER4Android/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
+     vendor/candy/prebuilt/common/app/ViPER4Android/audio_policy.sh:system/audio_policy.sh
+
+
 PRODUCT_VERSION_MAJOR = 6.0.1
 PRODUCT_VERSION_MINOR = beta
 PRODUCT_VERSION_MAINTENANCE = 4
