@@ -142,7 +142,6 @@ PRODUCT_PACKAGES += \
 # Custom Candy packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    AudioFX \
     LockClock
 
 # BitSyko Layers
